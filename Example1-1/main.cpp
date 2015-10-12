@@ -10,7 +10,7 @@ do {
 cout << "Factorial of: ";
 cin >> factArg;
 if ( factArg < 0 ) {
-cout << "No negative values, please!" << endl;
+cerr << "No negative values, please!" << endl;
 }
 } while (factArg < 0) ;
 int i = 2;
