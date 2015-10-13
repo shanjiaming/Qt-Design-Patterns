@@ -13,7 +13,13 @@ TARGET = Example1-15
 CONFIG   += console
 CONFIG   -= app_bundle
 
+#The first line, TEMPLATE = app , indicates that qmake should start with a templated
+#Makefile suited for building applications. If this project file were for a library, you
+#would see TEMPLATE = lib to indicate that a Makefile library template should be used
+#instead.
 TEMPLATE = app
+
+include (../common.pri)
 
 
 SOURCES += main.cpp
