@@ -1,6 +1,5 @@
 #ifndef EXAMPLE23_H/*Header files are included in other files by the preprocessor. To prevent a header file
-from accidentally being included more than once in any compiled file, wrap it with*/
-#ifndef-#define ... #endif preprocessor macros
+from accidentally being included more than once in any compiled file, wrap it with #ifndef-#define ... #endif preprocessor macros*/
 #define EXAMPLE23_H
 #include <QString>
 class Fraction {
