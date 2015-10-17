@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2015-10-16T20:22:47
+# Project created by QtCreator 2015-10-17T07:45:51
 #
 #-------------------------------------------------
 
@@ -8,11 +8,14 @@ QT       += core
 
 QT       -= gui
 
-TARGET = Example2-10
+TARGET = Example2-12
 CONFIG   += console
 CONFIG   -= app_bundle
 
-TEMPLATE = lib
+TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES +=
+
+HEADERS += \
+    example2-12.h
