@@ -1,6 +1,6 @@
 #include "counter.h"
 #include<iostream>
-
+//http://woboq.com/blog/how-qt-signals-slots-work.html
 int main()
 {
 
